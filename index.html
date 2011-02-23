@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Group or Department Name | Stanford University</title>
+<title>Lee Reilly | Stanford University</title>
 <link rel="shortcut icon" type="image/x-icon" href="https://www.stanford.edu/favicon.ico" />
 <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/stanfordmodern/css/stanfordmodern.css" media="all" />
 <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/stanfordmodern/css/ceebox-min.css" media="all" />
@@ -9,32 +9,11 @@
 <script type="text/javascript" src="https://www.stanford.edu/stanfordmodern/js/stanfordmodern.js"></script>
 <script type="text/javascript" src="https://www.stanford.edu/stanfordmodern/js/jquery.swfobject.js"></script>
 <script type="text/javascript" src="https://www.stanford.edu/stanfordmodern/js/jquery.ceebox-min.js"></script>
-<!-- Custom -->
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
 <script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/jquery.airport-1.1.js"></script>
 </head>
-<!-- Stanford Modern Templates Version 2.0 -->
-<!-- CSS Instructions: Select a combination of the following body classes e.g. <body class="two-sidebars drawer wide ie6-3col">
-
-[two-sidebars] or [sidebar-left] or [sidebar-right]
-    Create a two or three column layout
-    Affected div(s): #sidebar-left or #sidebar-right
-    
-[nav] or [drawer]
-    Add horizontal navigation or horizontal navigation with expandable drawer (5 item max limit)
-    Affected div(s): #nav, #nav_drawer, #toggle
-    
-[wide]
-    Flexible width layout
-    
-[ie6-3col] or [ie6-2col]
-    Add wide display support for Internet Explorer 6 when used in conjunction with the [wide] body class.
-    Use ie6-3col for the two-sidebars layout.  Use ie6-2col for the sidebar-left or sidebar-right layouts.
-    
-[topic] or [portal]
-    Enable styling for advanced templates such as portal or topic pages.
--->
-<body class="two-sidebars">
+<body class="two-sidebars nav">
 <!-- Start #layout -->
 <div id="layout"> 
   <!-- Start #wrapper -->
@@ -42,11 +21,11 @@
     <!-- Start #header -->
     <div id="header"> 
       <!-- Start #logo -->
-      <div id="logo"><!-- Place the code generated from the Stanford Banner Creator (http://www.stanford.edu/dept/its/cgi-bin/services/web/bannercreator/) here. After uploading the new banner, make sure that the src attribute of the img tag points to the correct location. --> 
+      <div id="logo">
         <img src="images/banner.gif" alt="Lee Reilly - Systems Software Developer" border="0" usemap="#Map" />
         <map name="Map" id="Map">
           <area shape="rect" coords="-1,0,263,57" href="http://www.stanford.edu" alt="Stanford University" />
-          <area shape="rect" coords="275,4,700,57" href="http://www.stanford.edu" alt="Group or Department Name" />
+          <area shape="rect" coords="275,4,700,57" href="http://www.stanford.edu/~lreilly" alt="Lee Reilly" />
         </map>
       </div>
       <!-- End #logo -->
@@ -79,125 +58,66 @@
     <div id="nav">
       <ul>
         <li class="current"><a href="#">Home</a></li>
-        <li><a href="#">News &amp; Updates</a></li>
-        <li><a href="#">What We Do</a></li>
-        <li><a href="#">Staff</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Who</a></li>
+        <li><a href="#">What</a></li>
+        <li><a href="#">Why</a></li>
+        <li><a href="#">Where</a></li>
+        <li><a href="#">When</a></li>
       </ul>
     </div>
     <!-- End #nav (Removable) --> 
-    
-    <!-- Start #nav_drawer (Removable) -->
-    <div id="nav_drawer">
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#">Link 5</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#">Link 5</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#">Link 5</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#">Link 5</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#">Link 5</a></li>
-          </ul>
-        </li>
-      </ul>
-      <div class="clear"></div>
-    </div>
-    <!-- End #nav_drawer (Removable) --> 
-    
-    <!-- Start #toggle (Removable) -->
-    <div id="toggle">
-      <div id="menu_expand">Expand Menus</div>
-      <div id="menu_hide">Hide Menus</div>
-    </div>
-    <!-- End #toggle (Removable) --> 
-    
     <!-- Start #container -->
     <div id="container"> 
-      
       <!-- Start #content -->
       <div id="content"> 
-        
         <!-- Start #sidebar-left (Removable) -->
         <div id="sidebar-left" class="sidebar">
-          <ul class="nav">
-            <li class="current"><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#">Link 5</a></li>
-          </ul>
+          <dl class="nav">
+            <dt>Email</dt>
+            <dd>lreilly@stanford.edu</dd>
+            <dt>Phone</dt>
+            <dd>925-408-1125</dd>
+            <dt>Fax</dt>
+            <dd>lreilly@stanford.edu</dd>
+            <dt>Jabber</dt>
+            <dd>lreilly@stanford.edu</dd>
+			<dt>Mail code</dt>
+			<dd>6066</dd>
+          </dl>
         </div>
         <!-- End #sidebar-left (Removable) --> 
-        
         <!-- Start #center -->
         <div id="center">
-          <h1>Page Title</h1>
-          
-          <!--Optional Breadcrumb Start--> 
-          <!--<div class="breadcrumb"><a href="#">Main Page</a> &raquo; <a href="#">Sub Page</a> &raquo; Current Page</div>--> 
-          <!--Optional Breadcrumb End--> 
-          
-          <!--Optional On this page Start-->
-          <div id="onthispage">
-            <h1>On this page:</h1>
-            <ul>
-              <li><a href="#c1">heading 1</a></li>
-              <li><a href="#c2">heading 2</a></li>
-            </ul>
-          </div>
-          <!--Optional On this page End-->
-          <h2 id="c1">Heading</h2>
-          <p>Praesent faucibus molestie orci. Vestibulum tincidunt tellus vel nisi. Morbi sed est at odio faucibus tempor. Vestibulum faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque eu odio sit amet nunc dictum consectetuer.</p>
-          <h3>Sub-Heading</h3>
-          <p>Vivamus sollicitudin, nulla eget dictum feugiat, nunc leo facilisis felis, a lacinia dui velit eget nibh. Etiam bibendum orci non ante. Quisque iaculis ligula sit amet dui lobortis laoreet. Fusce elit pede, rutrum vel, ultrices nec, sollicitudin ut, nunc. Nulla facilisi.</p>
-          <h2 id="c2">Heading</h2>
-          <p>Donec sollicitudin pharetra diam. Aliquam egestas tellus a elit. Phasellus et sem. Nulla nec lectus. Cras lobortis, enim nec dignissim condimentum, dui mi venenatis purus, at ullamcorper massa ipsum sed sapien. Proin fringilla sodales nunc. Suspendisse mollis tortor id nisi.</p>
+          <h1>Lee Reilly</h1>      
+			
+		<script type="text/javascript">
+			// <![CDATA[	
+			$(document).ready(function(){				
+				$('#job-titles').airport(['software developer.','web developer.','software engineer.','project manager.']);
+			});	
+			// ]]>
+		</script>
+
+
+          <h2 id="c1">Who</h2>
+          <p>Lee Reilly works in Stanford University's <acronym title="Digital Library Systems and Services">DLSS</acronym> department as a <span id="job-titles"></span></p>
+ 		<p>He holds a Bachelor of Science in Computer Science from the University of Strathclyde and has various technical certifications in technologies and project management. Lee brings over ten years of experience to Stanford having worked at CERN, Los Alamos National Laboratory, Lawrence Livermore National Laboratory and a few startups in between.</p>
+          <h2 id="c2">What</h2>
+          <p>Amongst other things, Lee works on the Digital Medieval Manuscripts initiative and the <a href="http://projectblacklight.org/">Blacklight</a> open source project.</p>
+          <h2 id="c3">Why</h2>
+          <p>Are you kidding?</p>
+          <h2 id="c4">Where</h2>
+          <p>Room 210, Meyer Library, Stanford University, Palo Alto, California, 94305, USA [<a href="http://maps.google.com/maps?q=Meyer+Library+Stanford+University&oe=utf-8&client=firefox-a&hl=en&ie=UTF8&hq=&hnear=J+Henry+Meyer+Memorial+Library,+Stanford,+Santa+Clara,+California+94305&ll=37.42541,-122.167127&spn=0.004097,0.005804&t=h&z=18">Google maps</a>]</p>
+          <h2 id="c5">When</h2>
+          <p class="code">Time.now()</p>
         </div>
         <!-- End #center --> 
-        
         <!-- Start #sidebar-right (Removable) -->
         <div id="sidebar-right" class="sidebar"> </div>
         <!-- End #sidebar-right (Removable) -->
         <div class="content_clear"></div>
       </div>
       <!-- End #content --> 
-      
       <!-- Start #footer-wrapper -->
       <div id="footer-wrapper"> 
         <!-- Start #footer -->
@@ -211,7 +131,6 @@
           </ul>
         </div>
         <!-- End #footer --> 
-        
         <!-- Start #copyright -->
         <div id="copyright" class="vcard"> &copy; <span class="fn org">Stanford University</span>. <span class="adr">450 Serra Mall, <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span>. <span class="tel">(650) 723-2300</span></span>. <a href="http://www.stanford.edu/site/terms.html">Terms of Use</a> | <a href="http://www.stanford.edu/site/copyright.html">Copyright Complaints</a></div>
         <!-- End #copyright --> 

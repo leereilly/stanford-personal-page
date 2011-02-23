@@ -1,2 +1,11 @@
 /* CSS Document */
 
+@font-face {
+  font-family: 'OCRA';
+  src: url('../fonts/ocra10.ttf') format('truetype');
+}
+
+h1 {font-family: OCRA;}
+h2 {font-family: OCRA;}
+dt {font-family: OCRA;}
+p.code {font-family: OCRA;}
